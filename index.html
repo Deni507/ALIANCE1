@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/style.css" />
   <title>Alience Prodaction</title>
 </head>
+
 <body class="front-page">
   <div class="mobile-menu">
     <ul class="mobile-menu-nav">
@@ -359,7 +360,11 @@
     </div>
   </section>
   <section class="section founder">
-    <img src="img/founder.png" alt="founder" class="founder-photo" />
+    <picture class="founder-photo">
+      <source type="image/webp" srcset="img/founder.webp">
+      <source type="image/png" srcset="img/founder.png">
+      <img src="img/founder.png" alt="founder">
+    </picture>
     <div class="container">
       <div class="founder-content-wrapper">
         <div class="founder-content">
