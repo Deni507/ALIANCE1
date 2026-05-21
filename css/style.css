@@ -445,6 +445,9 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.founder-photo img {
+  width: 100%;
+}
 .founder-content {
   max-width: 45rem;
 }
@@ -595,7 +598,7 @@ body {
 .input-group {
   position: relative;
   height: 66px;
-  width: 840px;
+  width: 52.5rem;
   flex-grow: 1;
   background-color: #f0f2f5;
 }
